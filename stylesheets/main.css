@@ -4,39 +4,11 @@
   list-style-type: none;
 }
 
-/* VARIABLES */
-
 :root {
   /* COLOR */
-  --primary-color:#4a4a4a ;
-  --secundary-color:#3CDBC0 ;
-  --background-color: #FFFFFF;
-   /*FONTS*/
-   --primary-font: "Rubik", sans-serif;
-}
-
-body {
-}
-
-
-.wrapper {
-  width: 0%;
-  max-width: 1200px;/*se suele hacer con los contenedores estas tres lineas*/
-  margin: auto; /*se suele hacer con los contenedores estas tres lineas*/
-  padding: 15px; /*para que nos separe y no nos toque los extremos*/
-}
-
-/* MAIN */
-
-
-
-/* FOOTER */
-
-
-
-
-@media all and (min-width: 768px) /*TAMAÑO TABLET*/ {
-  
-  }
-  
+  --primary-color: #4a4a4a;
+  --secundary-color: #3cdbc0;
+  --background-color: #ffffff;
+  /*FONTS*/
+  --primary-font: "Rubik", sans-serif;
 }
