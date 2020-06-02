@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+/* VARIABLES */
+
+:root {
+  --primary-font: ;
+  --regular-weight: ;
+  --bold-weight: ;
+  --primary-color: ;
+  --light-color: ;
+  --dark-color: ;
+}
+
+body {
+  font-family: ;
+  border: ;
+  font-weight:;
+}
+
+
+.wrapper {
+  width: 00%;
+  max-width: 1200px;/*se suele hacer con los contenedores estas tres lineas*/
+  margin: auto; /*se suele hacer con los contenedores estas tres lineas*/
+  padding: 15px; /*para que nos separe y no nos toque los extremos*/
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
+
+
+
+@media all and (min-width: 768px) /*TAMAÑO TABLET*/ {
+  
+  }
+  
+}
