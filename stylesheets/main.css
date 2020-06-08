@@ -27,6 +27,7 @@ header {
   z-index: 1;
   background-color: var(--light-color);
 }
+
 .header-logo {
   margin-top: 10px;
   height: 54.86px;
@@ -46,11 +47,12 @@ header {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
+  text-transform: capitalize;
 }
 .img-logo {
   width: 155px;
 }
-main {
+h1 {
   background-color: var(--secundary-color);
   height: 100vh;
   flex-direction: column;
@@ -58,7 +60,16 @@ main {
   align-items: center;
   display: flex;
   color: var(--light-color);
+}
+
+main h1 span {
   font-size: 30px;
+  text-transform: capitalize;
+  font-family: var(--primary-font);
+}
+
+a {
+  padding: 8px;
 }
 /*MEDIA QUERIES*/
 @media all and (min-width: 768px) {
@@ -83,7 +94,9 @@ main {
     margin-left: 10px;
     margin-right: 10px;
   }
-  main span {
+  main h1 span {
+    text-transform: capitalize;
+    font-family: var(--primary-font);
     display: flex;
     flex-direction: row;
     justify-content: center;
